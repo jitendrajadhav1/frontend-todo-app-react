@@ -1,16 +1,81 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and production-ready Todo application built with React.
 
-Currently, two official plugins are available:
+## Production-grade React Todo App Features
+- Add/Edit/Delete todos with inline editing
+- Mark Complete with visual strikethrough
+- LocalStorage Persistence - data survives refresh
+- Filter Tabs - All/Active/Completed
+- Fully Responsive - Mobile-first design
+- Clean Modern UI - Glassmorphism + smooth hovers
+- Custom Hook - useLocalStorage for state management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Responsive Screenshots
 
-## React Compiler
+|                          | Home                  | Activity Checked      | Filter Active         | Filter Completed      |
+|--------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
+| **Desktop (1200px+)**    | ![Desktop Home](./screenshots/screenshot-desktop.png) | ![Desktop Checked](./screenshots/screenshot-checked-activity.png) | ![Desktop Active](./screenshots/desktop-active-tab.png) | ![Desktop Completed](./screenshots/desktop-completed-tab.png) |
+| **Mobile (375px)**       | ![Mobile Home](./screenshots/screenshot-mobile.png) | ![Mobile Checked](./screenshots/mobile-checked-activity.png) | ![Mobile Active](./screenshots/mobile-active-tab.png) | ![Mobile Completed](./screenshots/mobile-completed-tab.png) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+# Clone the repo
+git clone https://github.com/yourusername/react-todo-app.git
+cd react-todo-app
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+## Folder Structure
+src/
+├── components/
+│   ├── TodoInput.jsx       # Add/Edit form
+│   ├── TodoItem.jsx        # Individual todo
+│   ├── TodoList.jsx        # Filtered list
+│   └── FilterTabs.jsx      # Filter buttons
+├── hooks/
+│   └── useLocalStorage.js  # Custom persistence hook
+├── pages/
+│   └── Home.jsx           # Main app container
+├── styles/
+│   └── app.css            # Responsive styles
+├── App.jsx
+└── main.jsx
+
+## Data Model
+{
+  id: string,        // crypto.randomUUID()
+  title: string,     // Todo text
+  completed: boolean,// Completion state
+  createdAt: Date    // Timestamp
+}
+
+## Key Implementation Highlights
+- Custom Hook: useLocalStorage persists state automatically
+- Controlled Forms: Clean input handling with React state
+- Filter Logic: Pure functional filtering without re-renders
+- Responsive Design: Mobile-first CSS with proper breakpoints
+- Accessibility: Semantic HTML + keyboard navigation ready
+- Performance: Optimized re-renders with proper key props
+
+## Development Scripts
+npm run dev     # Start dev server
+npm run build   # Production build
+npm run lint    # ESLint check
+npm run preview # Preview production build
+
+
+<div align="center">
+Built with ❤️ using React
+© Jitendra Jadhav 🚀
+</div>
