@@ -70,10 +70,10 @@ src/
 - Performance: Optimized re-renders with proper key props
 
 ## Development Scripts
-npm run dev     # Start dev server
-npm run build   # Production build
-npm run lint    # ESLint check
-npm run preview # Preview production build
+- npm run dev     # Start dev server
+- npm run build   # Production build
+- npm run lint    # ESLint check
+- npm run preview # Preview production build
 
 
 <div align="center">
