@@ -15,8 +15,8 @@ A clean and production-ready Todo application built with React.
 
 |                          | Home                  | Activity Checked      | Filter Active         | Filter Completed      |
 |--------------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-| **Desktop (1200px+)**    | ![Desktop Home](./screenshots/screenshot-desktop.png) | ![Desktop Checked](./screenshots/screenshot-checked-activity.png) | ![Desktop Active](./screenshots/desktop-active-tab.png) | ![Desktop Completed](./screenshots/desktop-completed-tab.png) |
-| **Mobile (375px)**       | ![Mobile Home](./screenshots/screenshot-mobile.png) | ![Mobile Checked](./screenshots/mobile-checked-activity.png) | ![Mobile Active](./screenshots/mobile-active-tab.png) | ![Mobile Completed](./screenshots/mobile-completed-tab.png) |
+| **Desktop (1200px+)**    | ![Desktop Home](./screenshots/screenshot-desktop.png) | ![Desktop Checked](./screenshots/desktop-checked-activity.png) | ![Desktop Active](./screenshots/desktop-active-tab.png) | ![Desktop Completed](./screenshots/desktop-completed-tab.png) |
+| **Mobile (375px)**       | ![Mobile Home](./screenshots/screenshot-mobile.png) | ![Mobile Checked](./screenshots/mobile-checked-activity.png) | ![Mobile Active](./screenshots/mobile-acitive-tab.png) | ![Mobile Completed](./screenshots/mobile-completed-tab.png) |
 
 
 ## Tech Stack
