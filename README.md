@@ -1,5 +1,8 @@
 # React Todo App
 
+[![React Todo App](https://img.shields.io/badge/React-Production%20Todo-blue?logo=react&logoColor=white)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-Fast%20Build-green?logo=vite&logoColor=white)](https://vitejs.dev)
+
 A clean and production-ready Todo application built with React.
 <div align="center"> </div>
 
