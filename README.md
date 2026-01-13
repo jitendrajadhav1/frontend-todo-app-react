@@ -1,8 +1,9 @@
 # React Todo App
 
 A clean and production-ready Todo application built with React.
+<div align="center"> </div>
 
-## Production-grade React Todo App Features
+## Todo App Features
 - Add/Edit/Delete todos with inline editing
 - Mark Complete with visual strikethrough
 - LocalStorage Persistence - data survives refresh
